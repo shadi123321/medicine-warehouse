@@ -1,0 +1,14 @@
+# Normalize all text files to LF
+* text=auto eol=lf
+
+# Define diff settings for specific file types
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+# Exclude certain files and directories from archive exports
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
